@@ -1,6 +1,5 @@
 # Show Api
 
-## Ambiente Local
 
 ### Requisitos
 
