@@ -42,7 +42,7 @@ PARAMS:
 ![Screenshot from 2021-07-06 12-18-19](https://user-images.githubusercontent.com/5760749/124625560-4ae3e300-de54-11eb-9bf7-0adb105248af.png)
 
 Response ejemplo:
-
+<pre><code>
 [
     {
         "id": 1,
@@ -97,7 +97,7 @@ Response ejemplo:
             }
         ]
     }
-]
+]</pre></code>
 
 
 
