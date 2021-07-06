@@ -19,12 +19,12 @@ mvn spring-boot:run
 ### Container
 
 - Genarar JAR: mvn clean package
-- Generar imagen local: parado en la raiz del proyecto ejecutar 
- sudo docker build -t matiasciarla/show-api:{tag} .
-- Subier imagen a la registry: ejecutar el siguiente comando 
-sudo docker push matiasciarla/show-api:{tag}
-- Instanciar imagen: correr el siguiente comando reemplazando los valores de las environments por los correspondientes al ambiente  
-sudo docker run -d -e PSQL_HOST={host ambiente} -e PSQL_PORT={puerto ambiente} -e PSQL_USER={user ambiente} -e PSQL_PASSWORD={password ambiente} -e PSQL_DB={base de datos ambiente} --name show-api --restart=always -p 80:8080 matiasciarla/show-api:{tag}
+- Generar imagen local: parado en la raiz del proyecto ejecutar <br>
+<pre><code> sudo docker build -t matiasciarla/show-api:{tag} . </pre></code>
+- Subir imagen a la registry: ejecutar el siguiente comando <br>
+<pre><code> sudo docker push matiasciarla/show-api:{tag} </pre></code>
+- Instanciar imagen: correr el siguiente comando reemplazando los valores de las environments por los correspondientes al ambiente <br>
+<pre><code> sudo docker run -d -e PSQL_HOST={host ambiente} -e PSQL_PORT={puerto ambiente} -e PSQL_USER={user ambiente} -e PSQL_PASSWORD={password ambiente} -e PSQL_DB={base de datos ambiente} --name show-api --restart=always -p 80:8080 matiasciarla/show-api:{tag} <pre><code>
 
 
 ### API
