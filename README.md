@@ -39,7 +39,8 @@ TIPO: GET
 PATH: /api/funciones
 PARAMS: 
 
-![Screenshot from 2021-07-06 12-01-28](https://user-images.githubusercontent.com/5760749/124622981-f3447800-de51-11eb-97d4-75562f3740e0.png)
+![Screenshot from 2021-07-06 12-18-19](https://user-images.githubusercontent.com/5760749/124625560-4ae3e300-de54-11eb-9bf7-0adb105248af.png)
+
 
 
 
