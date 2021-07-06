@@ -37,7 +37,7 @@ Los endpoints expuestos son los siguientes:
 
 TIPO: GET <br>
 PATH: /api/funciones <br>
-PARAMS: 
+QUERY PARAMS: 
 
 ![Screenshot from 2021-07-06 12-18-19](https://user-images.githubusercontent.com/5760749/124625560-4ae3e300-de54-11eb-9bf7-0adb105248af.png)
 
@@ -99,6 +99,29 @@ Response ejemplo:
     }
 ]</pre></code>
 
+- Servicio para buscar funciones por ID:
 
+TIPO: GET <br>
+PATH: /api/funciones/{id} <br>
 
+- Servicio que retorna todos los shows
+
+TIPO: GET <br>
+PATH: /api/shows <br>
+
+- Servicio que genera un nuevo ticket para un asiento en particular
+
+TIPO: POST <br>
+PATH: /api/butacaTicket/1/ticket <br>
+
+Ejemplo de request:
+
+<pre><code> 
+
+{
+    "dni": "12345678",
+    "nombre": "Juan Perez"
+}
+
+</pre></code> 
 
