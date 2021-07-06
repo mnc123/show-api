@@ -24,7 +24,7 @@ mvn spring-boot:run
 - Subir imagen a la registry: ejecutar el siguiente comando <br>
 <pre><code> sudo docker push matiasciarla/show-api:{tag} </pre></code>
 - Instanciar imagen: correr el siguiente comando reemplazando los valores de las environments por los correspondientes al ambiente <br>
-<pre><code> sudo docker run -d -e PSQL_HOST={host ambiente} -e PSQL_PORT={puerto ambiente} -e PSQL_USER={user ambiente} -e PSQL_PASSWORD={password ambiente} -e PSQL_DB={base de datos ambiente} --name show-api --restart=always -p 80:8080 matiasciarla/show-api:{tag} <pre><code>
+<pre><code> sudo docker run -d -e PSQL_HOST={host ambiente} -e PSQL_PORT={puerto ambiente} -e PSQL_USER={user ambiente} -e PSQL_PASSWORD={password ambiente} -e PSQL_DB={base de datos ambiente} --name show-api --restart=always -p 80:8080 matiasciarla/show-api:{tag} </pre></code>
 
 
 ### API
