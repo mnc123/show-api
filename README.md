@@ -39,7 +39,7 @@ TIPO: GET <br>
 PATH: /api/funciones <br>
 QUERY PARAMS: 
 
-![Screenshot from 2021-07-06 12-18-19](https://user-images.githubusercontent.com/5760749/124625560-4ae3e300-de54-11eb-9bf7-0adb105248af.png)
+![Screenshot from 2021-07-06 12-35-02](https://user-images.githubusercontent.com/5760749/124628218-a3b47b00-de56-11eb-92a8-b21cc7ab3df0.png)
 
 Response ejemplo:
 <pre><code>
