@@ -35,14 +35,69 @@ Los endpoints expuestos son los siguientes:
 
 - Servicio para buscar funciones:
 
-TIPO: GET
-PATH: /api/funciones
+TIPO: GET <br>
+PATH: /api/funciones <br>
 PARAMS: 
 
 ![Screenshot from 2021-07-06 12-18-19](https://user-images.githubusercontent.com/5760749/124625560-4ae3e300-de54-11eb-9bf7-0adb105248af.png)
 
+Response ejemplo:
 
-
+[
+    {
+        "id": 1,
+        "fecha": "2021-12-18T08:21:36.175+0000",
+        "sala": {
+            "id": 1,
+            "teatro": {
+                "id": 1,
+                "descripcion": "Luna Park"
+            }
+        },
+        "show": {
+            "id": 1,
+            "descripcion": "Superman"
+        },
+        "butacaTickets": [
+            {
+                "id": 1,
+                "precio": 200.0,
+                "seccion": "A",
+                "ticket": {
+                    "id": 1,
+                    "nroTicket": "A-1",
+                    "nombre": "pepa"
+                },
+                "butaca": {
+                    "id": 1,
+                    "sala": {
+                        "id": 1,
+                        "teatro": {
+                            "id": 1,
+                            "descripcion": "Luna Park"
+                        }
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "precio": 200.0,
+                "seccion": "A",
+                "ticket": null,
+                "butaca": {
+                    "id": 4,
+                    "sala": {
+                        "id": 1,
+                        "teatro": {
+                            "id": 1,
+                            "descripcion": "Luna Park"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
 
 
 
