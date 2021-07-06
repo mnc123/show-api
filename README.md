@@ -112,7 +112,7 @@ PATH: /api/shows <br>
 - Servicio que genera un nuevo ticket para un asiento en particular
 
 TIPO: POST <br>
-PATH: /api/butacaTicket/1/ticket <br>
+PATH: /api/butacaTicket/{id}/ticket <br>
 
 Ejemplo de request:
 
